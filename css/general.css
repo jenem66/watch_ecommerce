@@ -26,3 +26,9 @@ a {
     color: var(--copy-color);
     text-decoration: none;
 }
+
+.container {
+    max-width: 127.2rem;
+    margin: 0 auto;
+}
+
