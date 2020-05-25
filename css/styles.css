@@ -1,16 +1,26 @@
-*,
-*::after,
-*::before{
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+@import "general.css";
+@import "colors.css";
+@import "navigation.css";
+
+.container {
+    max-width: 127.2rem;
+    margin: 0 auto;
 }
 
-html{
-		/* set up sizing for using REM*/
-    font-size: 62.5%;
+.breadcrumbs ul{
+    display: flex;
 }
 
-body{
-    box-sizing: border-box;
+.breadrumb__item {
+    margin-right: 1.6rem;
 }
+
+.breadrumb__item::after {
+    content: "/";
+    margin-left: 1.6rem;
+}
+/* 
+.breadrumb__item:last-child::after {
+    content: "";
+    margin-left: 0;
+} */

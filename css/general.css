@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+		/* set up sizing for using REM*/
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    color: #4F4F4F;
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: var(--copy-color);
+    text-decoration: none;
+}
