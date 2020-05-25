@@ -11,6 +11,7 @@
     </head>
     <body>
         <header>
+            <!-- NAVIGATION -->
             <nav>
                 <div class="container">
                     <div class="main-menu">
@@ -40,8 +41,9 @@
                 </div>
             </nav>
         </header>
-        <div class="container">
-            <div class="breadcrumbs">
+        <!-- BREADCRUMBS -->
+        <div class="breadcrumbs">
+            <div class="container">
                 <ul>
                     <a href="#">
                         <li class="breadrumb__item">Home</li>
@@ -54,9 +56,112 @@
                     </a>
                 </ul>
             </div>
-
         </div>
-
-        
+        <!-- PRODUCT -->
+        <div class="container">
+            <div class="product">
+                <div class="product-image">
+                    <div class="product-image__featured">
+                        <img src="img/watch-1.jpg" alt="featured product image">
+                    </div>
+                    <div class="product-gallery">
+                        <ul>
+                            <li class="product-gallery__view active-view">
+                                <img src="img/watch-1.jpg" alt="Classic Rose Gold front view">
+                            </li>
+                            <li class="product-gallery__view">
+                                <img src="img/watch-2.jpg" alt="Classic Rose Gold side view">
+                            </li>
+                            <li class="product-gallery__view">
+                                <img src="img/watch-3.jpg" alt="Classic Rose Gold back view">
+                            </li>
+                            <li class="product-gallery__view">
+                                <img src="img/watch-4.jpg" alt="Classic Rose Gold box">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- PRODUCT INFO -->
+                <div class="product-info">
+                    <div class="product-info__brand">
+                        <img src="img/mvmt-logo.png" alt="product logo">
+                    </div>
+                    <div class="product-info__title">
+                        <h2>Classic Rose Gold</h2>
+                    </div>
+                    <div class="product-info__tabs">
+                        <ul>
+                            <li class="product-info__tab-item active-tab">
+                                Overview
+                            </li>
+                            <li class="product-info__tab-item">
+                                Shipping
+                            </li>
+                            <li class="product-info__tab-item">
+                                Return
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- PRODUCT DESCRIPTION -->
+                    <div class="product-info__description">
+                        <p>
+                            This men's vintage watch can pair with anything and is built to withstand your day-to-day life.This original quintessential minimalist piece features a signature color design – a rich black genuine leather band and rose gold accents with a round 45mm black dial encased in glass made of hardened mineral crystal.
+                        </p>
+                    </div>
+                    <!-- PRODUCT COLOR -->
+                    <div class="product-color">
+                        <div class="product-info__text">
+                            Color
+                        </div>
+                        <div class="product-color__options">
+                            <ul>
+                                <li class="product-color__options-item">
+                                    <img src="img/watch-color-01.jpg" alt="Classic Rose Gold">
+                                </li>
+                                <li class="product-color__options-item">
+                                    <img src="img/watch-color-02.jpg" alt="Matte Black">
+                                </li>
+                                <li class="product-color__options-item">
+                                    <img src="img/watch-color-03.jpg" alt="White and Silver">
+                                </li>
+                                <li class="product-color__options-item">
+                                    <img src="img/watch-color-04.jpg" alt="Black and Gold">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- QUANTITY -->
+                    <div class="product-quantity">
+                        <div class="product-info__text">
+                            Quantity
+                        </div>
+                        <select id="quantity" name="quantity">
+                          <option value="one">1</option>
+                          <option value="two">2</option>
+                          <option value="three">3</option>
+                          <option value="four">4</option>
+                        </select>
+                    </div>
+                    <!-- PRICE -->
+                    <div class="product-info__price">
+                        $110.<sub>00</sub>>
+                    </div>
+                    <!-- PRODUCT INFO ACTIONS -->
+                    <div class="product-info__actions">
+                        <!-- ADD TO CARD -->
+                        <div class="btn add-cart">
+                            <span><img src="img/plus-white.svg" alt="plus"></span>
+                            <a href="#">add to cart</a>
+                        </div>
+                        <!-- BOOKMARK -->
+                        <div class="product-bookmark">
+                            <a href="#">
+                                <img src="img/bookmark.svg" alt="bookmark">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
